@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
@@ -21,6 +27,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 15px 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
 }
 
 #page-logo a {
@@ -36,4 +47,13 @@ header {
 header ul {
   display: flex;
   gap: 50px;
+}
+
+header a {
+  color: rgb(255, 251, 0);
+  font-size: 20px;
+}
+
+header a:hover {
+  opacity: 0.5;
 }
