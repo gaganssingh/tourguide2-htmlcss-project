@@ -16,11 +16,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 900px;
-  background-color: rgba(51, 47, 47, 0.8);
-  box-sizing: 2px 4px 8px rgb(68, 68, 68);
   border-radius: 8px;
   text-align: center;
   padding: 50px 0;
+
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 #hero-content h1 {
@@ -42,24 +45,23 @@
 #hero-content a {
   display: inline-block;
   text-decoration: none;
-  background-color: rgb(255, 251, 0);
+  background-color: #e76f51;
   padding: 12px 24px;
-  color: black;
+  color: white;
   font-size: 24px;
   font-weight: 700;
   border-radius: 8px;
-  box-shadow: 2px 4px 8px rgb(68, 68, 68);
 }
 
 #hero-content a:hover {
-  background-color: rgb(237, 235, 110);
+  background-color: #f4a261;
 }
 
 /* -----------------------
         HIGHLIGHTS SECTION
 ----------------------- */
 #highlights {
-  background-color: rgb(101, 101, 55);
+  background-color: #1d3557;
   color: white;
   display: flex;
   flex-direction: column;
@@ -112,5 +114,5 @@
 }
 
 .highlights-gallery-item p > span {
-  color: rgb(255, 251, 0);
+  color: #e76f51;
 }

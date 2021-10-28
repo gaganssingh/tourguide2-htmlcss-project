@@ -37,7 +37,7 @@ header {
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
-  color: rgb(245, 243, 160);
+  color: #f45e38;
   font-size: 50px;
   text-decoration: none;
   text-transform: uppercase;
@@ -50,7 +50,7 @@ header ul {
 }
 
 header a {
-  color: rgb(255, 251, 0);
+  color: #e76f51;
   font-size: 20px;
 }
 
@@ -82,11 +82,11 @@ header a:hover {
 }
 
 .footer-social-links a {
-  color: rgb(255, 251, 0);
+  color: #e76f51;
 }
 
 .footer-social-links a:hover {
-  color: rgb(245, 243, 160);
+  color: #f4a261;
 }
 
 #footer div {
