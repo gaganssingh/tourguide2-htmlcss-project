@@ -57,3 +57,39 @@ header a {
 header a:hover {
   opacity: 0.5;
 }
+
+/* -----------------------
+        FOOTER SECTION
+----------------------- */
+#footer {
+  padding: 50px;
+  background-color: rgb(45, 45, 45);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer-social-links {
+  /* padding: 50px 0; */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-social-links li {
+  font-size: 50px;
+}
+
+.footer-social-links a {
+  color: rgb(255, 251, 0);
+}
+
+.footer-social-links a:hover {
+  color: rgb(245, 243, 160);
+}
+
+#footer div {
+  font-size: 24px;
+  color: white;
+}
